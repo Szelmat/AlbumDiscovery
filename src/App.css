@@ -1,3 +1,5 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,73 @@
 
 .App-link {
   color: #61dafb;
+}
+
+form {
+  display: flex !important;
+  flex-direction: column;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  height: 50px;
+  width: 200px;
+  align-self: center;
+  display: inline-flex;
+}
+
+h1.is-large, h2.is-large {
+  text-align: center;
+  font-size: 30px;
+}
+
+html {
+  background-color: #eee;
+}
+
+#login-page {
+  margin: 20vh 15vw;
+  box-shadow: #282c34;
+}
+
+#login-page form {
+  padding: 20px 25px;
+}
+
+#login-page label {
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 200px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+#albums {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#main-album {
+  flex-basis: 500px;
+  text-align: center;
+}
+
+#album-container {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+nav.box {
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes App-logo-spin {
